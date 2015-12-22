@@ -1,11 +1,4 @@
-@font-face {
-    font-family: 'Avenir';
-    src: url('../fonts/Avenir.eot');
-    src: url('../fonts/Avenir.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/Avenir.ttf') format('truetype');
-}
 body{
-	font-family: 'Avenir';
 	margin: 0;
 }
 .baner_cont{
@@ -42,4 +35,62 @@ body{
 	line-height: 33px;
 	font-family:arial;
 	font-size: 19px;
+}
+.left,
+.right{
+	font-size: 50px;
+}
+.left{
+	text-align: left;
+}
+.right{
+	text-align: right;
+}
+.green_tx{
+	color: #78ab47;
+}
+
+
+
+.slider_wrap {
+margin:100px auto 0;
+width:680px;
+height:400px;
+position:relative;
+overflow:hidden;
+}
+.slider_wrap img {
+width:640px;
+height:auto;
+display:none;
+position:absolute;
+top:0;
+left:20px;	
+}
+.slider_wrap img:first-child {
+display:block;
+}
+.slider_wrap span {
+margin-top:-13px;
+width:62px;
+height:106px;
+display:block;
+position:absolute;
+top:50%;
+cursor:pointer;
+background:url(../img/slider3_arrow.png) no-repeat;
+}
+.slider_wrap span.next {
+right:-30px;
+background-position:-62px 0;
+}
+.slider_wrap span.next:hover {
+background-position:-63px -1px;
+}
+.slider_wrap span.prev {
+left:-30px;
+background-position: 0 0;
+}
+.slider_wrap span.prev:hover {
+background-position: 2px -1px;
 }
