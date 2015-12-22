@@ -1,4 +1,5 @@
 body{
+	font-family:arial;
 	margin: 0;
 }
 .baner_cont{
@@ -16,8 +17,9 @@ body{
 }
 .title_filling{
 	vertical-align:top;
-	font-size: 68px;
+	font-size: 63px;
 	display: inline-block;
+	margin-bottom: 40px;
 }
 .lime_img{
 	margin-right: -75px;
@@ -36,33 +38,76 @@ body{
 	font-family:arial;
 	font-size: 19px;
 }
+.cont_info{
+	margin-top: 55px;
+}
 .left,
 .right{
+	font-weight: normal;
 	font-size: 50px;
 }
 .left{
 	text-align: left;
+	margin-left: 10px;
 }
 .right{
 	text-align: right;
+	margin-right: 10px;
+	margin-bottom: 20px;
+}
+.twoo_plate{
+	margin-right: 45px;
+}
+.three_plate{
+	margin-top: 65px;
+	margin-left: 67px;
+	margin-bottom:55px;
+}
+.five_plate{
+	margin-top: 30px;
+	margin-left: 25px;
+}
+.six_plate{
+	margin-right: 135px;
 }
 .green_tx{
 	color: #78ab47;
 }
 .slider_cont{
 	width: 100%;
-	height: 460px;
+}
+.bg{
+	position: absolute;
+	margin-top: 50px;
 	background: #a3a3a3;
-	top: 30px;
+	width: 100%;
+	height: 450px;
+}
+.avesme{
+	z-index: 1;
+	position: absolute;
+	margin-top: -14px;
+	text-align: center;
+	color: #fff;
+	font-size: 44px;
+	width: 100%;
+	background: #78aa47;
+}
+.title_clints{
+	margin-top: 35px;
+	margin-bottom: 37px;
+	font-size: 57px;
 }
 
 
+
 .slider_wrap {
-margin:100px auto 0;
+margin:45px auto 0;
 width:980px;
 height:514px;
 position:relative;
 overflow:hidden;
+z-index: 3;
 }
 .slider_wrap img {
 width:771px;
