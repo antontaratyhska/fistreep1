@@ -1,4 +1,11 @@
+@font-face {
+    font-family: 'Avenir';
+    src: url('../fonts/Avenir.eot');
+    src: url('../fonts/Avenir.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Avenir.ttf') format('truetype');
+}
 body{
+	font-family: 'Avenir';
 	margin: 0;
 }
 .baner_cont{
@@ -7,14 +14,32 @@ body{
 	background: #898989;
 	text-align: center;
 }
+.bunner{
+	margin-top: 120px;
+}
 .filling{
 	width: 767px;
 	margin: auto;
 }
 .title_filling{
+	vertical-align:top;
+	font-size: 68px;
 	display: inline-block;
 }
 .lime_img{
-	width: 320px;
-	height: 230px;
+	margin-right: -75px;
+	margin-top: -20px;
+	width: 330px;
+	height: 240px;
+}
+.top_textcor{
+	margin-top:-12px;
+}
+.top_2textcor{
+	margin-top: 25px;
+}
+.text_filling{
+	line-height: 33px;
+	font-family:arial;
+	font-size: 19px;
 }
